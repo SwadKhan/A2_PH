@@ -36,6 +36,13 @@
     list-style: none;
 
 }
+.menu{
+    display: block;
+   
+}
+.icon{
+    display: none;
+}
 
 .nav-link-ul {
     background: rgb(115, 199, 233);
@@ -523,19 +530,26 @@
     background-size:cover;
     background-position: center;
 }
-
 .footer{
+    margin-top: 30px;
+    background-color: #1e6f78;
+    height: 100%
+}
+
+.footerM{
    display: flex;
    justify-content: space-evenly;
    align-items: center;
+   margin-bottom: 50px;
+  
   
 }
-.footer h1{
-    font-size: 260%; 
-    margin-top: -50px;
+.footerM h1{
+    font-size:3.5rem; 
+   
     font-weight: bolder;
     font-style: italic;
-    color: #1e6f78;
+    color: #78d1db;
 }
 
 .dividerLine{
@@ -544,7 +558,11 @@
     background-color: rgba(240, 242, 244, 0.718);
     margin: 20px 0px;
     margin-left: 250px;
-   
+}
+
+.tag{
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 
@@ -559,6 +577,14 @@
     .joinClub{
         display: none;
     }   
+
+    .menu{
+        display: none;
+       
+    }
+    .icon{
+        display: block;
+    }
 .banner,
 .navbar,
 .habits,
@@ -566,12 +592,6 @@
 .training{
     margin: 0px 5px;
 }
-
-    .navbar { 
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 5px ;
-    }
 
     .brand {
         margin-left: 0;
@@ -802,14 +822,6 @@
     margin-bottom: 40px;
 }
 
-
-/* .bmi-input {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    
-}*/
-
 .bmi input {
     background-color: rgba(77, 134, 184, 0.744);
     border-radius: 10px;
@@ -845,5 +857,22 @@
     background-position: center;
 }
 
+
+.footerM{
+   flex-direction: column;
+   margin: 40px;
+   align-items: baseline;
+ }
+ .footer{
+    margin-top: 30px;
+    
+ }
+ .dividerLine{
+    width: 60%; 
+    height: 1px;   
+    background-color: rgba(240, 242, 244, 0.718);
+    margin: 20px 0px;
+    margin-left: 70px;
+}
   
 }    
