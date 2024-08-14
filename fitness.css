@@ -370,6 +370,80 @@
     background-blend-mode: overlay;
 }
 
+/* Inspiration */
+#inspiration {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 60px;
+    margin-right: 60px;
+    text-wrap: stable;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    /* border-color: #0D1321;
+    border: #0D1321; */
+}
+
+.ins_title h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 900;
+    color: #75dbedfb;
+    border-color: #0a1617;
+    text-shadow: 2px 2px 4px #000000;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gif{
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    /* margin-top: 5px; */
+    margin-bottom: 20px; 
+}
+
+
+.ins_title p {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-left: 143px;
+    padding-right: 145px;
+    text-wrap: pretty;
+}
+
+.iframe {
+    padding-left: 32px 32px;
+    margin-left: 95px;
+    margin-bottom: 20px;
+
+    /* border-color: whitesmoke; */
+    /* border-color: rgba(13, 19, 33, 0.2); */
+    /* border-radius: 5%; */
+
+}
+
+.iframeBorder {
+    /* padding: 32px 32px; */
+    border-color: rgba(13, 19, 33, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.ins_title p {
+    text-align: center;
+    margin-bottom: 46px;
+    padding-left: 140px;
+    padding-right: 145px;
+    text-wrap: pretty;
+}
+
+
 /* BMI */
 .BMI {
     margin: 100px 60px
@@ -704,8 +778,31 @@
         text-align: left;
         padding-left: 10px;
     }
+    #inspiration {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* margin-left: 15px;
+        margin-right: 15px; */
+        /* text-wrap: stable; */
+        margin-bottom: 100px;
+        margin-top: 100px;
+        /* border-color: #0D1321;
+        border: #0D1321; */
+    } 
     
-    
+    .ins_title p {
+        text-align: center;
+        margin-bottom: 46px;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* text-wrap: pretty; */
+    }
+    .iframeBorder{
+        margin-left: -75px; 
+        width:130%;
+        height:100%
+    }
     
     .img1 {
         background-image: url("images/exercise1.jpg");
